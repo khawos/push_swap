@@ -23,7 +23,7 @@ Ce projet met l'accent sur l'optimisation des algorithmes de tri et la gestion e
 - Algorithme optimisé en fonction de la taille de la pile :
   - Tri simple pour `n <= 3`
   - Tri spécifique pour `n <= 5`
-  - Algorithme de tri par groupes (ex : Radix sort, Tri rapide optimisé) pour `n > 5`
+  - Algorithme de tri par groupes (Radix sort) pour `n > 5`
 - Efficacité du tri mesurée en nombre d'opérations
 
 ## Compilation et Utilisation
@@ -34,7 +34,7 @@ Compilez avec :
 make
 ```
 Exécutez avec une liste d'entiers :
-```
+```sh
 ./push_swap 4 67 3 87 23
 ```
 
